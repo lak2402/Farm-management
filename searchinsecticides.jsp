@@ -1,0 +1,85 @@
+<html>
+    <head>
+    <body>
+    </body>
+    </head>
+    <br><br>
+    <style>
+        body{
+            background-image: url("images/g");
+            background-size: contain;
+            background-size: cover;
+            background-repeat: no-repeat;
+                margin:0;
+                
+            }
+       .m8{
+                width:100%;
+                text-align:center;
+                background:none;
+                overflow:auto;
+            }
+        
+        .m8 table,h1{
+              height:2%;
+                margin-left :100px ;
+                
+        }
+        .m8 input[type=text]{
+             border-radius:100px;
+            margin:0;
+            box-sizing:border-box;
+            border:0.05px solid black;
+            background:Hex Code RGB;
+             width:250px;
+            height:40px;
+            
+        }
+        .m8 select{
+               border-radius:200px;
+            width:250px;
+            height:40px;
+            
+        }
+        .m8 input[type=submit]{
+            margin-left:100px;
+        }
+        button{
+                background:black;
+                color:white;
+                border-radius:0 5px 5px 0;
+                cursor:pointer;
+                position:relative;
+                padding:7px;
+                font-family:sans-serif;
+                border:none;
+                font-size:16px;
+                border-radius: 40px;
+                margin-left: 100px;
+            }
+    </style>
+     <body>
+    <nav class="m8">
+   
+       <form action="searchinsecticides1.jsp" method="post">
+         <table align="center" border="2">
+             <br>
+             <h1>SEARCH INSECTICIDES</h1>
+             <br>
+             <br>
+             <tr><td>INS_ID</td></tr> 
+             <br>
+             <tr><td><input type="text" name="ins_id"></td></tr>
+             
+            
+         </table>
+           <br>
+           <br>
+           <br>
+           <br>
+        
+                <button>SEARCH</button>
+        </form>
+    </nav>
+    </body>
+</html>
